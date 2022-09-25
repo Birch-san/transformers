@@ -36,19 +36,23 @@ VOCAB_FILES_NAMES = {
 PRETRAINED_VOCAB_FILES_MAP = {
     "vocab_file": {
         "openai/clip-vit-base-patch32": "https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/vocab.json",
+        "laion/CLIP-ViT-H-14-laion2B-s32B-b79K": "https://huggingface.co/laion/CLIP-ViT-H-14-laion2B-s32B-b79K/resolve/main/vocab.json",
     },
     "merges_file": {
         "openai/clip-vit-base-patch32": "https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/merges.txt",
+        "laion/CLIP-ViT-H-14-laion2B-s32B-b79K": "https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/merges.txt",
     },
 }
 
 PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES = {
     "openai/clip-vit-base-patch32": 77,
+    "laion/CLIP-ViT-H-14-laion2B-s32B-b79K": 77,
 }
 
 
 PRETRAINED_INIT_CONFIGURATION = {
     "openai/clip-vit-base-patch32": {},
+    "laion/CLIP-ViT-H-14-laion2B-s32B-b79K": {},
 }
 
 

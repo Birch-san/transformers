@@ -41,6 +41,7 @@ _CHECKPOINT_FOR_DOC = "openai/clip-vit-base-patch32"
 
 CLIP_PRETRAINED_MODEL_ARCHIVE_LIST = [
     "openai/clip-vit-base-patch32",
+    "laion/CLIP-ViT-H-14-laion2B-s32B-b79K",
     # See all CLIP models at https://huggingface.co/models?filter=clip
 ]
 

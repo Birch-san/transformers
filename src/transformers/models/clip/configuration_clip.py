@@ -33,6 +33,7 @@ logger = logging.get_logger(__name__)
 
 CLIP_PRETRAINED_CONFIG_ARCHIVE_MAP = {
     "openai/clip-vit-base-patch32": "https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json",
+    "laion/CLIP-ViT-H-14-laion2B-s32B-b79K": "https://huggingface.co/laion/CLIP-ViT-H-14-laion2B-s32B-b79K/resolve/main/config.json",
     # See all CLIP models at https://huggingface.co/models?filter=clip
 }
 
